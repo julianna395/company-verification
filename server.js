@@ -6,4 +6,4 @@ const __dirname = path.resolve()
 
 app.use(express.static(__dirname))
 
-app.listen(process.env.PORT || 3000)
+app.listen(3000)
